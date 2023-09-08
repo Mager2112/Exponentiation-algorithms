@@ -3,7 +3,11 @@
    All rights reserved lmao
 */
 #include <iostream>
-unsigned long old_grade(int a, int b) // this is uneffective a^8 = a*a*...*a 8 times, too slow
+unsigned long simple_grade(int a, int b) // simple pow for the lazy 
+{
+    return pow(a, b);
+}
+unsigned long old_grade(int a, int b) // this is uneffective a^8 = a*a*...*a 8 times, too slow but simple
 {
     int old_a = a;
     for (int i = 1; i < b; i++)
