@@ -28,8 +28,5 @@ unsigned long new_exp(int a, int b) // more effective a^8 = ((a^2)^2)^2, faster 
 }
 int main()
 {
-    int a, b;
-    std::cout << "Type number and then exponent:\n";
-    std::cin >> a >> b;
-    std::cout << "Result is:" << new_exp(a, b) << std::endl;
+   //blah blah blaha muha
 }
