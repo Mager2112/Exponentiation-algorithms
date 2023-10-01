@@ -28,5 +28,5 @@ unsigned long new_exp(int a, int b) // more effective a^8 = ((a^2)^2)^2, faster 
 }
 int main()
 {
-   //blah blah blaha muha
+   //blah blah blah
 }
